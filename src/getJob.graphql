@@ -1,0 +1,9 @@
+#import "./dataForPageA.gql"
+#import "./dataForPageB.gql"
+
+query GetJobs {
+  jobs {
+    ...DataForPageA
+    ...DataForPageB
+  }
+}

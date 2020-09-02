@@ -1,0 +1,3 @@
+fragment JobSimpleRecruiterData on Job {
+  recruiterName
+}

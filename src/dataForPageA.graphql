@@ -1,0 +1,6 @@
+#import "./jobSimpleRecruiterData.graphql"
+
+fragment DataForPageA on Job {
+  id
+  ...JobSimpleRecruiterData
+}
